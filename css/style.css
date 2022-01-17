@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    width: 100%;
+}
+
+li  {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid lightgray;
+   align-items: center;
+}
+
+ul {
+    width: 100%;
+}
+
+.crossout {
+    text-decoration: line-through;
+}
+
+#app {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+input {
+    width: 250px;
+    border: 1px solid lightgray;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.container {
+    margin: 40px auto;
+    width: calc(100% - 10px);
+    max-width: 800px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.remove-item {
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
